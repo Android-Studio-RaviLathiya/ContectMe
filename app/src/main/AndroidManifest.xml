@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.contactme">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.per mission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:name=".MyPrefrence"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,icon,theme,label">
+        <activity android:name=".EditActivity"></activity>
+        <activity android:name=".ContectDetail" />
+        <activity android:name=".MessageActivty" />
+        <activity android:name=".NearShopActivity" />
+        <activity android:name=".BlockActivity" />
+        <activity android:name=".EmergencyActivity" />
+        <activity android:name=".FavouriteActivity" />
+        <activity android:name=".DialNumberActivity" />
+        <activity android:name=".AddContectActivity" />
+        <activity android:name=".ShowContectActivity" />
+        <activity android:name=".SingUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SpashActivity"/>
+
+<!--        <intent-filter>-->
+
+<!--            <action android:name="android.intent.action.MAIN" />-->
+
+<!--            <category android:name="android.intent.category.LAUNCHER" />-->
+<!--        </intent-filter>-->
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
